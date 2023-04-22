@@ -1,16 +1,13 @@
 <template>
   <div>
-    <header id="pageheader">
-      <page-header></page-header>
-    </header>
-    <h1>home</h1>
+    <page-header></page-header>
+    <h1>Menu</h1>
   </div>
 </template>
 
 <script>
 import PageHeader from "@/components/PageHeader.vue";
 export default {
-  name: `pageheader`,
   components: {
     PageHeader,
   },
@@ -18,7 +15,4 @@ export default {
 </script>
 
 <style scoped>
-div {
-  text-align: center;
-}
 </style>
